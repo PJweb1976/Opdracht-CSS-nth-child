@@ -23,16 +23,16 @@ hr {
   border: 0;
   border-bottom: 1px solid grey;
 }
-/* maak je selectors hier. Gebruik het volgende achtergrondkleur: lightsteelblue; */
+/* schiet mij maar lek */
 .one :nth-child(1) {
   background-color: lightsteelblue;
 }
 
-.two :nth-child(2n + 3) {
-    background-color: lightsteelblue;
+.two :nth-child(2) li:nth-child(3) {
+  background-color: lightsteelblue;
 }
-.three :nth-child(-n+3), .three :nth-child(odd) {
-    background-color: lightsteelblue;
+.three ul:nth-child(odd) li:nth-child(-n + 3) {
+  background-color: lightsteelblue;
 }
 
 div:before {
